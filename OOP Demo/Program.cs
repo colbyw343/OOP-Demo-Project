@@ -4,6 +4,13 @@ namespace OOP_Demo
 {
     class Program
     {
+        //Polymorphism means "in many different forms". Using this meaning we can see that this would be an example of Polymorphism.
+        //We set up 3 different methods, all with the same name, but we pass in different variables (i.e. string, int, or nothing at all).
+        //So then, whenever we want to use this method, we have to specify which method we want to use by putting in either an int, string, or leave it blank.
+        private void DoThings() { }
+        private void DoThings(string a) { }
+        private void DoThings(int b) { }
+
         static void Main(string[] args)
         {
             CarDealer();
